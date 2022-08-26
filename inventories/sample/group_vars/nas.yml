@@ -14,5 +14,90 @@ ansible_nas_hostname: ansible-nas
 ansible_nas_timezone: Etc/UTC
 
 ## Enable some applications
-heimdall_enabled: true
-portainer_enabled: true
+# airsonic_enabled: true # catalog and stream music
+# bazarr_enabled: true # companion to Radarr and Sonarr for downloading subtitles
+# bitwarden_enabled: true # Self-Hosting port of password manager - consider vaultwarden instead
+# booksonic_enabled: true # The selfhosted audiobook server
+# calibre_enabled: true # Provides a clean interface for browsing, reading and downloading eBooks using an existing Calibre database.
+# code-server_enabled: true # Powerful IDE from Microsoft accessible through the browser
+# cloudcmd_enabled: true # A dual panel file manager with integrated web console and text editor
+# cloudflare_ddns_enabled: true # automatically update Cloudflare with your IP address
+# couchpotato_enabled: true # for downloading and managing movies
+# dashy_enabled: true # A self-hosted startpage for your server. Easy to use visual editor, status checking, widgets, themes and tons more!
+# deluge_enabled: true # A lightweight, Free Software, cross-platform BitTorrent client.
+# dokuwiki_enabled: true # A simple to use and highly versatile Open Source wiki software that doesn't require a database.
+# duplicacy_enabled: true # A web UI for the Duplicacy cloud backup program, which provides lock-free deduplication backups to multiple providers
+# duplicati_enabled: true # for backing up your stuff
+# emby_enabled: true # Media streaming and management
+# esphome_enabled: true # ESP8266/ESP32 programming and management for home automation
+# firefly_enabled: true # Free and open source personal finance manager
+# freshrss_enabled: true # Self-hosted RSS feed aggregator like Leed or Kriss Feed
+# get_iplayer_enabled: true # download programmes from BBC iplayer
+# gitea_enabled: true # Simple self-hosted GitHub clone
+# gitlab_enabled: true # Self-hosted GitHub clone of the highest order
+# glances_enabled: true # for seeing the state of your system via a web browser
+# gotify_enabled: true # Self-hosted server for sending push notifications
+# grafana_enabled: true # Query, visualize, alert on, and understand your data no matter where it’s stored (via stats role).
+# guacamole_enabled: true # Web based remote desktop gateway, supports VNC, RDP and SSH
+# healthchecks.io_enabled: true # Ensure your NAS is online and get notified otherwise
+heimdall_enabled: true # Home server dashboard
+# homeassistant_enabled: true # Open source home automation
+# homebridge_enabled: true # Emulate the iOS HomeKit API
+# jackett_enabled: true # API Support for your favorite torrent trackers
+# jellyfin_enabled: true # The Free Software Media System
+# joomla_enabled: true # Open source content management system
+# komga_enabled: true # a media server for your comics, mangas, BDs and magazines
+# krusader_enabled: true # Twin panel file management for your desktop
+# lidarr_enabled: true # Music collection manager for Usenet and BitTorrent users
+# mealie_enabled: true # A self-hosted recipe manager and meal planner
+# minecraft-server_enabled: true # Server edition of the popular building and exploring game
+# minidlna_enabled: true #  simple media server which is fully compliant with DLNA/UPnP-AV clients
+# miniflux_enabled: true # An RSS news reader
+# mosquitto_enabled: true # An open source MQTT broker
+# mylar_enabled: true # An automated Comic Book downloader (cbr/cbz) for use with SABnzbd, NZBGet and torrents
+# mymediaforalexa_enabled: true # Lets you stream your music collection to your alexa device
+# n8n_enabled: true # Nodemation, a node based workflow and automation service like IFTTT.
+# navidrome_enabled: true # Modern Music Server and Streamer compatible with Subsonic/Airsonic
+# netbootxyz_enabled: true # a PXE boot server
+# netdata_enabled: true # An extremely comprehensive system monitoring solution
+# nextcloud_enabled: true # A self-hosted Dropbox alternative
+# nzbget_enabled: true # The most efficient usenet downloader
+# octoprint_enabled: true # Control and monitor your 3D printer
+# ombi_enabled: true # web application that automatically gives your users the ability to request content
+# openhab_enabled: true # A vendor and technology agnostic open source automation software for your home
+# organizr_enabled: true # ORGANIZR aims to be your one stop shop for your Servers Frontend.
+# overseerr_enabled: true # open source software application for managing requests for your media library
+# paperless_ng_enabled: true # Scan, index and archive all your physical documents
+# piwigo_enabled: true # Photo Gallery Software
+# plex_enabled: true # Plex Media Server
+portainer_enabled: true # for managing Docker and running custom images
+# prometheus_enabled: true # Time series database and monitoring system (via stats role).
+# prowlarr_enabled: true # Indexer aggregator for Sonarr, Radarr, Lidarr, etc.
+# pyload_enabled: true # A download manager with a friendly web-interface
+# pytivo_enabled: true # An HMO and GoBack server for TiVos.
+# radarr_enabled: true # for organising and downloading movies
+# radarr_kids_enabled: true # for organising and downloading movies
+# route53_ddns_enabled: true # Automatically update AWS Route53 with your IP address
+# rssbridge_enabled: true # The RSS feed for websites missing it
+# sabnzbd_enabled: true # A powerful usenet downloader that FreeNAS provides
+# sickchill_enabled: true # for managing TV episodes
+# sonarr_enabled: true # for downloading and managing TV episodes
+# sonarr_kids_enabled: true # for downloading and managing TV episodes
+# speedtest-tracker_enabled: true # Continuously track your internet speed
+# stats_enabled: true # Monitor and visualise metrics about your NAS and internet connection using Grafana, Prometheus, Telegraf and more.
+# syncthing_enabled: true # sync directories with another device
+# tautulli_enabled: true # Monitor Your Plex Media Server
+# thelounge_enabled: true # Web based always-on IRC client
+# tiddlywiki_enabled: true # A unique non-linear notebook/wiki for capturing, organizing, and sharing complex information
+# timemachine_enabled: true # Samba-based mac backup server
+# traefik_enabled: true # Web proxy and SSL certificate manager
+# transmission_enabled: true # BitTorrent client
+# transmission-with-openvpn_enabled: true # BitTorrent client with OpenVPN if you have a supported VPN provider
+# ubooquity_enabled: true # Book and comic server
+# utorrent_enabled: true # The best torrent downloading app for beginners
+# virtual_desktop_enabled: true # A virtual desktop running on your NAS.
+# wallabag_enabled: true # Save and classify articles. Read them later.
+# watchtower_enabled: true # Monitor your Docker containers and update them if a new version is available
+# wireshark_enabled: true # the world’s foremost and widely-used network protocol analyzer.
+# youtubedlmaterial_enabled: true # Self-hosted YouTube downloader built on Material Design
+# znc_enabled: true # IRC bouncer to stay connected to favourite IRC networks and channels

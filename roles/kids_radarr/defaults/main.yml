@@ -1,0 +1,19 @@
+---
+kids_radarr_enabled: false
+kids_radarr_available_externally: false
+
+# directories
+kids_radarr_movies_directory: "{{ kids_movies_root }}"
+kids_radarr_download_directory: "{{ downloads_root }}"
+kids_radarr_data_directory: "{{ docker_home }}/kids_radarr"
+
+# uid / gid
+kids_radarr_user_id: "0"
+kids_radarr_group_id: "0"
+
+# network
+kids_radarr_port: "7879"
+kids_radarr_hostname: "kids_radarr"
+
+# specs
+kids_radarr_memory: 1g

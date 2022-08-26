@@ -44,6 +44,12 @@ movies_root: "{{ samba_shares_root }}/movies"
 # Where your TV episodes are stored
 tv_root: "{{ samba_shares_root }}/tv"
 
+# Where your kids movies are stored
+kids_movies_root: "{{ samba_shares_root }}/kidsmovies"
+
+# Where your kids TV episodes are stored
+kids_tv_root: "{{ samba_shares_root }}/kidstv"
+
 # Where torrent files are stored (picked up by Transmission for downloading)
 torrents_root: "{{ samba_shares_root }}/torrents"
 
@@ -99,6 +105,22 @@ samba_shares:
     writable: yes
     browseable: yes
     path: "{{ tv_root }}"
+
+  - name: kidsmovies
+    comment: "Kids Movies"
+    guest_ok: yes
+    public: yes
+    writable: yes
+    browseable: yes
+    path: "{{ kids_movies_root }}"
+
+  - name: kidstv
+    comment: "Kids TV Episodes"
+    guest_ok: yes
+    public: yes
+    writable: yes
+    browseable: yes
+    path: "{{ kids_tv_root }}"
 
   - name: music
     comment: "Music"

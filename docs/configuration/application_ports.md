@@ -45,6 +45,8 @@ By default, applications can be found on the ports listed below.
 | Jackett          | 9117    | Bridge  | HTTP           |
 | Jellyfin         | 8896    | Bridge  | HTTP           |
 | Jellyfin         | 8928    | Bridge  | HTTPS          |
+| Kids Radarr      | 7879    | Bridge  | HTTPS          |
+| Kids Sonarr      | 8990    | Bridge  | HTTPS          |
 | Komga            | 8088    | Bridge  | HTTPS          |
 | Krusader         | 5800    | Bridge  | HTTP           |
 | Krusader         | 5900    | Bridge  | VNC            |
