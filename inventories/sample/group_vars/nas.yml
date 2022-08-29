@@ -19,9 +19,9 @@ ansible_nas_timezone: Etc/UTC
 # bitwarden_enabled: true # Self-Hosting port of password manager - consider vaultwarden instead
 # booksonic_enabled: true # The selfhosted audiobook server
 # calibre_enabled: true # Provides a clean interface for browsing, reading and downloading eBooks using an existing Calibre database.
-# code-server_enabled: true # Powerful IDE from Microsoft accessible through the browser
 # cloudcmd_enabled: true # A dual panel file manager with integrated web console and text editor
 # cloudflare_ddns_enabled: true # automatically update Cloudflare with your IP address
+# code-server_enabled: true # Powerful IDE from Microsoft accessible through the browser
 # couchpotato_enabled: true # for downloading and managing movies
 # dashy_enabled: true # A self-hosted startpage for your server. Easy to use visual editor, status checking, widgets, themes and tons more!
 # deluge_enabled: true # A lightweight, Free Software, cross-platform BitTorrent client.
@@ -46,6 +46,8 @@ heimdall_enabled: true # Home server dashboard
 # jackett_enabled: true # API Support for your favorite torrent trackers
 # jellyfin_enabled: true # The Free Software Media System
 # joomla_enabled: true # Open source content management system
+# kids_radarr_enabled: true # for organising and downloading kids movies
+# kids_sonarr_enabled: true # for downloading and managing kids TV episodes
 # komga_enabled: true # a media server for your comics, mangas, BDs and magazines
 # krusader_enabled: true # Twin panel file management for your desktop
 # lidarr_enabled: true # Music collection manager for Usenet and BitTorrent users
@@ -76,13 +78,11 @@ portainer_enabled: true # for managing Docker and running custom images
 # pyload_enabled: true # A download manager with a friendly web-interface
 # pytivo_enabled: true # An HMO and GoBack server for TiVos.
 # radarr_enabled: true # for organising and downloading movies
-# radarr_kids_enabled: true # for organising and downloading movies
 # route53_ddns_enabled: true # Automatically update AWS Route53 with your IP address
 # rssbridge_enabled: true # The RSS feed for websites missing it
 # sabnzbd_enabled: true # A powerful usenet downloader that FreeNAS provides
 # sickchill_enabled: true # for managing TV episodes
 # sonarr_enabled: true # for downloading and managing TV episodes
-# sonarr_kids_enabled: true # for downloading and managing TV episodes
 # speedtest-tracker_enabled: true # Continuously track your internet speed
 # stats_enabled: true # Monitor and visualise metrics about your NAS and internet connection using Grafana, Prometheus, Telegraf and more.
 # syncthing_enabled: true # sync directories with another device
